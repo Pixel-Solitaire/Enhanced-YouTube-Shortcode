@@ -1,0 +1,111 @@
+=== Enhanced YouTube Shortcode ===
+Contributors: Le-Pixel-Solitaire
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=erick%40pixel%2dsolitaire%2ecom&lc=CA&item_name=Le%20Pixel%20Solitaire&currency_code=CAD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
+Tags: youtube, shortcode, video, player
+Requires at least: 3.1
+Tested up to: 3.2.1
+Stable tag: 1.5
+
+A simple YouTube shortcode with basic options & general improvement over the default coming with Wordpress.
+
+
+== Description ==
+
+The "**Enhanced YouTube Shortcode**" plugin provides a quick & easy way to use a custom *YouTube&copy;* player in posts and/or pages without having to get your hands dirty in the source codes! The main advantage over the way *Wordpress* is working this out is the possibility of changing the display of all players in one single spot instead of having to do it manually at every places it has been set. But most importantly: it's fun and good for you!
+
+The code that is generated always allows scripting access and forces the use of the *ActionScript 3* engine (*to be sure everybody has the same settings*). There are 5 basic parameters available through a configuration page (*reach it from the Settings Menu*). It has been initially created (*& tested*) on a *Wordpress 3.2.1* live installation according to the specifications of the official *YouTube API*: see the [YouTube Embedded Player Parameters](http://pxsol.info/naqwb2 "YouTube Embedded Player Parameters - YouTube APIs and Tools - Google Code") page for quick reference.
+
+**Official plugin page:**
+
+*  [http://pixel-solitaire.com/telechargements/enhanced-youtube-shortcode/](http://pxsol.info/pIC0tG "Enhanced YouTube Shortcode || Les nouvelles du Pixel Solitaire")
+
+There are many things on the **To Do** list (*see section below*) so you can expect updates soon!
+
+
+== Installation ==
+
+1.  Extract the **/enhanced-youtube-shortcode/** folder from the downloaded file.
+
+2.  Upload this extracted folder & its content in your *Wordpress* plugin directory.
+
+3.  Go to "**Plugins=>Enhanced YouTube Shortcode**" & activate the plugin.
+
+4.  To modify the player display options go to "**Settings=>Enhanced YouTube**".
+
+
+== Frequently Asked Questions ==
+
+= Where can I get an uncompressed version of the CSS file for easy modification? =
+
+A *GitHub* project will soon be set up in order to solve all issues of the same type. Check [the official plugin webpage](http://pxsol.info/pIC0tG "Enhanced YouTube Shortcode || Les nouvelles du Pixel Solitaire") for upcoming infos about this.
+
+= I'm using *Internet Explorer 6* and the plugin settings page just looks horrible... =
+
+Oh, I'm soooo sorry for you. Really.
+
+Maybe it's time for you to give up...
+
+= You're a french speaking bloke, right? So where is the translation? =
+
+It's pretty simple: I just have to learn how to do it properly... 
+
+You can bet the french language will be added soon in a next release.
+
+= I got an indecent proposal idea & doesn't see anything related to this here... What could I do? =
+
+Your best chance for anything related to this plugin is to go to [the official plugin webpage](http://pxsol.info/pIC0tG "Enhanced YouTube Shortcode || Les nouvelles du Pixel Solitaire") & leave a message.
+
+= I think you're a genius and I want you to be the father of my children. =
+
+*Well*... If you're actually a sexy blond woman with lot of money and a big car I believe we can form a real complete couple: I offer quite the opposite ...
+
+
+== Screenshots ==
+
+1. **Plugin admin page** with the options panel (*top*) & the reminder about how to use the shortcode (*bottom*).
+
+
+ == Upgrade Notice ==
+ 
+Since this is the first version being "*out there in the wild*" there is not much to say here... but it will change very soon!
+
+
+== Changelog ==
+
+= 1.5 =
+* Initial public release.
+
+= 1.4 =
+* Bugs repair / visual modifications.
+
+= 1.3 =
+* Possibility to modify and save new player options.
+
+= 1.2 =
+* Addition of a page to display the settings & how to.
+
+= 1.1 =
+* Translation of the manual code into a plugin form.
+
+= 1.0 =
+* The initial code is released as a snippet for manual inclusion into the "*functions.php*" page, in this post:
+
+[http://pixel-solitaire.com/2011/08/04/wp-pixel-youtube/](http://pxsol.info/p0wOuK "Custom YouTube In WordPress – Revisited || Les nouvelles du Pixel Solitaire")
+
+
+ == TO DO ==
+ 
+*  Translate the plugin in *french*.
+
+*  Include the *HTML 5* code.
+
+*  Add more option switchs.
+
+*  Take over the world. 
+
+Not necessarily in that order.
+
+
+== License ==
+
+This plugin (*and all its related files...*) falls under the [GNU GENERAL PUBLIC LICENSE](http://pxsol.info/q3tKfp "GNU GENERAL PUBLIC LICENSE || www.gnu.org") *v3*. If you wish to distribute it or even better, participate in its dev. or anything, I will be more than happy to read a note from you on [the official plugin webpage](http://pxsol.info/pIC0tG "Enhanced YouTube Shortcode || Les nouvelles du Pixel Solitaire") (*use the comments section*): hey, I can even help you out! ;-)
