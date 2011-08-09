@@ -1,63 +1,10 @@
-div#pxsol_youtube .dernier {
-	margin-bottom: 0;
-}
-div#pxsol_youtube h2 {
-	padding-bottom:1em;
-    background: transparent url("../images/ico-pxsol-youtube.png") 0 7px no-repeat;
-	padding-left: 42px;
-	margin: 7px 8px 0 0;
-}
-div#pxsol_youtube h3, div#pxsol_youtube blockquote, .turquoise {
-	font-size:1.2em;
-	color: #174F69;
-}
-div#pxsol_youtube blockquote {
-	padding: 1em 0 1em .7em;
-	border:1px solid #174F69;
-	font-weight:bold;
-	font-size:1.1em;
-	background: #fff;
-}
-div#pxsol_youtube h3 {
-	margin-top:0;
-	text-decoration:underline;
-}
-div#pxsol_youtube ul li {
-	padding-left:.2em;
-	margin-left:15px;
-	margin-top:.5em;
-	list-style-type: circle;
-}
-div#pxsol_youtube input.text {
-	width:75px;
-}
-div#pxsol_youtube input.radio {
-	padding-top:5px;
-}
-div#pxsol_youtube #submit {
-	cursor:default;
-	background: #174F69;
-	color:#fff;
-	font-weight:bold;
-}
-div#pxsol_youtube #submit:hover {
-	cursor:pointer;
-	background: none;
-	color:#174F69;
-}
-div#pxsol_youtube div.pxsol_top {
-	width: 500px;
-	padding-top: 15px;
-    background: transparent url("../images/bkg-div-top.png") 0 0 no-repeat;
-}
-div#pxsol_youtube div.pxsol_bottom {
-	width: 500px;
-	padding-bottom: 15px;
-	margin-bottom: 1.5em;
-    background: transparent url("../images/bkg-div-bottom.png") 0 100% no-repeat;
-}
-div#pxsol_youtube div.pxsol_main {
-	width: 435px;
-	padding: 0 45px 8px 20px;
-    background: transparent url("../images/bkg-div-main.png") 0 100% no-repeat;
-}
+/*
+Plugin Name: Enhanced YouTube Shortcode
+Plugin URI: http://pixel-solitaire.com/telechargements/enhanced-youtube-shortcode/
+Description: A simple YouTube shortcode with basic options & general improvement over the default coming with Wordpress. Activate then click "Settings=>Enhanced YouTube" in order to edit the player options & more infos. Usage sample: [youtube_video id="abxjy-emFvs"]
+Version: 1.5
+Author: le Pixel Solitaire
+Author URI: http://pixel-solitaire.com/
+License: GNU General Public License (v3). See details at http://pxsol.info/rohPSr
+*/
+div#pxsol_youtube .dernier{margin-bottom:0;}div#pxsol_youtube h2{padding-bottom:1em;background:transparent url(../images/ico-pxsol-youtube.png) 0 7px no-repeat;padding-left:42px;margin:7px 8px 0 0;}div#pxsol_youtube h3,div#pxsol_youtube blockquote,.turquoise{font-size:1.2em;color:#174F69;}div#pxsol_youtube blockquote{padding:1em 0 1em .7em;border:1px solid #174F69;font-weight:bold;font-size:1.1em;background:#fff;}div#pxsol_youtube h3{margin-top:0;text-decoration:underline;}div#pxsol_youtube ul li{padding-left:.2em;margin-left:15px;margin-top:.5em;list-style-type:circle;}div#pxsol_youtube input.text{width:75px;}div#pxsol_youtube input.radio{padding-top:5px;}div#pxsol_youtube #submit{cursor:default;background:#174F69;color:#fff;font-weight:bold;}div#pxsol_youtube #submit:hover{cursor:pointer;background:none;color:#174F69;}div#pxsol_youtube div.pxsol_top{width:500px;padding-top:15px;background:transparent url(../images/bkg-div-top.png) 0 0 no-repeat;}div#pxsol_youtube div.pxsol_bottom{width:500px;padding-bottom:15px;margin-bottom:1.5em;background:transparent url(../images/bkg-div-bottom.png) 0 100% no-repeat;}div#pxsol_youtube div.pxsol_main{width:435px;padding:0 45px 8px 20px;background:transparent url(../images/bkg-div-main.png) 0 100% no-repeat;}

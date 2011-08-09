@@ -35,25 +35,25 @@ There are many things on the **To Do** list (*see section below*) so you can exp
 
 == Frequently Asked Questions ==
 
-= Where can I get an uncompressed version of the CSS file for easy modification? =
+= Trying to read and/or edit your codes is far from a "user friendly" experience. =
 
-A *GitHub* project will soon be set up in order to solve all issues of the same type. Check [the official plugin webpage](http://pxsol.info/pIC0tG "Enhanced YouTube Shortcode || Les nouvelles du Pixel Solitaire") for upcoming infos about this.
+Pretty normal: I don't work with this stuff ;-) For the sake of file size I've removed all PHP comments & HTML bits indentation, not to mention the minified CSS. Please go to the official [«Enhanced YouTube Shortcode» GitHub Public Repositories](http://pxsol.info/nrqCdW "Pixel-Solitaire/Enhanced-YouTube-Shortcode - GitHub") in order to obtain a clean & commented version of this plugin.
 
-= I'm using *Internet Explorer 6* and the plugin settings page just looks horrible... =
+= I'm using *Internet Explorer 6* and the settings page just looks awful... =
 
 Oh, I'm soooo sorry for you. Really.
 
-Maybe it's time for you to give up...
+Maybe it's time for you to give up, don't you think?
 
 = You're a french speaking bloke, right? So where is the translation? =
 
-It's pretty simple: I just have to learn how to do it properly... 
+It's quite simple: I just have to learn how to do it properly... 
 
 You can bet the french language will be added soon in a next release.
 
 = I got an indecent proposal idea & doesn't see anything related to this here... What could I do? =
 
-Your best chance for anything related to this plugin is to go to [the official plugin webpage](http://pxsol.info/pIC0tG "Enhanced YouTube Shortcode || Les nouvelles du Pixel Solitaire") & leave a message.
+Your best chance for anything related to this plugin is to leave a detailed message on [the plugin creator blog](http://pixel-solitaire.com "Les nouvelles du Pixel Solitaire").
 
 = I think you're a genius and I want you to be the father of my children. =
 
@@ -108,4 +108,4 @@ Not necessarily in that order.
 
 == License ==
 
-This plugin (*and all its related files...*) falls under the [GNU GENERAL PUBLIC LICENSE](http://pxsol.info/q3tKfp "GNU GENERAL PUBLIC LICENSE || www.gnu.org") *v3*. If you wish to distribute it or even better, participate in its dev. or anything, I will be more than happy to read a note from you on [the official plugin webpage](http://pxsol.info/pIC0tG "Enhanced YouTube Shortcode || Les nouvelles du Pixel Solitaire") (*use the comments section*): hey, I can even help you out! ;-)
+This plugin (*and all its related files*) falls under the [GNU GENERAL PUBLIC LICENSE](http://pxsol.info/rohPSr "GNU GENERAL PUBLIC LICENSE || Les nouvelles du Pixel Solitaire") *v3*. 
