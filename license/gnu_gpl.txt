@@ -29,7 +29,7 @@ Finally, every program is threatened constantly by software patents. States shou
 		 The precise & complete terms
 		  and conditions for copying,
 		 distribution and modification
-			can be found online at:
+		can be found online at:
 		==============================
 
 	http://pixel-solitaire.com/telechargements/license/

@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=erick
 Tags: youtube, shortcode, video, player
 Requires at least: 3.1
 Tested up to: 3.2.1
-Stable tag: 1.5
+Stable tag: 1.6
 
 A simple YouTube shortcode with basic options & general improvement over the default coming with Wordpress.
 
@@ -13,13 +13,9 @@ A simple YouTube shortcode with basic options & general improvement over the def
 
 The "**Enhanced YouTube Shortcode**" plugin provides a quick & easy way to use a custom *YouTube&copy;* player in posts and/or pages without having to get your hands dirty in the source codes! The main advantage over the way *Wordpress* is working this out is the possibility of changing the display of all players in one single spot instead of having to do it manually at every places it has been set. But most importantly: it's fun and good for you!
 
-The code that is generated always allows scripting access and forces the use of the *ActionScript 3* engine (*to be sure everybody has the same settings*). There are 5 basic parameters available through a configuration page (*reach it from the Settings Menu*). It has been initially created (*& tested*) on a *Wordpress 3.2.1* live installation according to the specifications of the official *YouTube API*: see the [YouTube Embedded Player Parameters](http://pxsol.info/naqwb2 "YouTube Embedded Player Parameters - YouTube APIs and Tools - Google Code") page for quick reference.
+The code that is generated always allows scripting access and forces the use of the *ActionScript 3* engine (*to be sure everybody has the same settings*). There are 5 basic parameters available through a configuration page (*reach it from the Settings Menu*). It has been initially created (*& tested*) on a *Wordpress 3.2.1* live installation according to the specifications of the official *YouTube API*: see the [YouTube Embedded Player Parameters](http://pxsol.info/naqwb2 "YouTube Embedded Player Parameters - YouTube APIs and Tools - Google Code") page for quick references.
 
-**Official plugin page:**
-
-*  [http://pixel-solitaire.com/telechargements/enhanced-youtube-shortcode/](http://pxsol.info/pIC0tG "Enhanced YouTube Shortcode || Les nouvelles du Pixel Solitaire")
-
-There are many things on the **To Do** list (*see section below*) so you can expect updates soon!
+There are many things on the **To Do** list (*see **Other Notes***) so you can expect updates soon!
 
 
 == Installation ==
@@ -32,30 +28,29 @@ There are many things on the **To Do** list (*see section below*) so you can exp
 
 4.  To modify the player display options go to "**Settings=>Enhanced YouTube**".
 
+5.  You can now use  this kind of shortcode: 
+    **[youtube_video id="abxjy-emFvs"]**
+
 
 == Frequently Asked Questions ==
 
 = Trying to read and/or edit your codes is far from a "user friendly" experience. =
 
-Pretty normal: I don't work with this stuff ;-) For the sake of file size I've removed all PHP comments & HTML bits indentation, not to mention the minified CSS. Please go to the official [«Enhanced YouTube Shortcode» GitHub Public Repositories](http://pxsol.info/nrqCdW "Pixel-Solitaire/Enhanced-YouTube-Shortcode - GitHub") in order to obtain a clean & commented version of this plugin.
+Pretty normal: I don't work with this stuff ;-) For the sake of file size I've removed most PHP comments & HTML bits indentation, not to mention the minified CSS. Please go to the official [«Enhanced YouTube Shortcode» GitHub Public Repositories](http://pxsol.info/nrqCdW "Pixel-Solitaire/Enhanced-YouTube-Shortcode - GitHub") in order to obtain a clean & commented version of the source codes.
 
 = I'm using *Internet Explorer 6* and the settings page just looks awful... =
 
-Oh, I'm soooo sorry for you. Really.
-
-Maybe it's time for you to give up, don't you think?
+Oh, I'm soooo sorry for you. Really. Maybe it's time for you to give up, don't you think?
 
 = You're a french speaking bloke, right? So where is the translation? =
 
-It's quite simple: I just have to learn how to do it properly... 
-
-You can bet the french language will be added soon in a next release.
+It's quite simple: I just have to learn how to do it properly... You can bet the french language will be added soon in a next release.
 
 = I got an indecent proposal idea & doesn't see anything related to this here... What could I do? =
 
-Your best chance for anything related to this plugin is to leave a detailed message on [the plugin creator blog](http://pixel-solitaire.com "Les nouvelles du Pixel Solitaire").
+Your best chance for anything in relation with this plugin is to leave a detailed message on [the plugin announcement blog post](http://pxsol.info/qHCl7L "Les nouvelles du Pixel Solitaire » Enhanced YouTube Shortcode").
 
-= I think you're a genius and I want you to be the father of my children. =
+= I think you're a genius & I want you to be the father of my children. =
 
 *Well*... If you're actually a sexy blond woman with lot of money and a big car I believe we can form a real complete couple: I offer quite the opposite ...
 
@@ -67,10 +62,25 @@ Your best chance for anything related to this plugin is to leave a detailed mess
 
  == Upgrade Notice ==
  
-Since this is the first version being "*out there in the wild*" there is not much to say here... but it will change very soon!
-
+= 1.6 =
+NEW FEATURE => YouTube logo hiding; BUG FIXES => Options variables output (*all except* height *&* width) + Overall performance tweaks; Please UPGRADE IMMEDIATELY.
 
 == Changelog ==
+
+= 1.6 =
+* New Feature
+
+** YouTube logo hiding (*on the bottom bar*)
+
+* Technical Stuff
+
+** Plugin's class encapsulation
+
+** New Settings link in the description (*general* Plugins *page*)
+
+** New options switchs manipulation
+
+** Better logic operations
 
 = 1.5 =
 * Initial public release.
@@ -99,11 +109,11 @@ Since this is the first version being "*out there in the wild*" there is not muc
 
 *  Include the *HTML 5* code.
 
-*  Add more option switchs.
+*  Even more option switchs.
 
 *  Take over the world. 
 
-Not necessarily in that order.
+Not necessarily in that order ;-)
 
 
 == License ==
