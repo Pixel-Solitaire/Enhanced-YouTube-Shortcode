@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=erick
 Tags: youtube, video, player, shortcode, custom link
 Requires at least: 3.1
 Tested up to: 3.2.1
-Stable tag: 1.8
+Stable tag: 1.9
 
 A simple YouTube shortcode with basic options & general improvement over the default coming with Wordpress.
 
@@ -13,7 +13,7 @@ A simple YouTube shortcode with basic options & general improvement over the def
 
 The "**Enhanced YouTube Shortcode**" plugin provides a quick & easy way to use a custom *YouTube&copy;* player in your posts and/or pages without having to get your hands dirty in the source codes! The main advantage over the way *Wordpress* is working this out is the possibility of changing the display of all players in one single spot instead of having to do it manually at every places it has been set. But most importantly: *it's fun and good for you*!
 
-The code that is generated always allows scripting access and forces the use of the *ActionScript 3* engine (*to be sure everybody has the same settings*). There are **now 9 parameters** available through a configuration page (*reach it from the Settings Menu*). It has been initially created (*& tested*) on a *Wordpress 3.2.1* live installation according to the specifications of the official *YouTube API*: see the [YouTube Embedded Player Parameters](http://pxsol.info/naqwb2 "YouTube Embedded Player Parameters - YouTube APIs and Tools - Google Code") page for quick references.
+The code that is generated always allows scripting access and forces the use of the *ActionScript 3* engine (*to be sure everybody has the same settings*). There are **now 10 parameters** available through a configuration page (*reach it from the Settings Menu*). It has been initially created (*& tested*) on a *Wordpress 3.2.1* live installation according to the specifications of the official *YouTube API*: see the [YouTube Embedded Player Parameters](http://pxsol.info/naqwb2 "YouTube Embedded Player Parameters - YouTube APIs and Tools - Google Code") page for quick references.
 
 There are many things on the **To Do** list (*see **Other Notes***) so you can expect updates soon!
 
@@ -61,11 +61,16 @@ Open up a window & shout it out loud. If you try hard enough maybe I'll hear it.
 
  == Upgrade Notice ==
  
-= 1.8 =
-New «Theme» feature; Code generation refinement; Please UPGRADE IMMEDIATELY.
+= 1.9 =
+Minor update: New «infos before playing» option & code source work. PLEASE UPGRADE for the ultimate experience.
 
 
 == Changelog ==
+
+= 1.9 =
+* New «infos before playing» feature
+* Visual & core files dissociation
+* Source code processing
 
 = 1.8 =
 * New «Theme» feature
@@ -106,10 +111,6 @@ New «Theme» feature; Code generation refinement; Please UPGRADE IMMEDIATELY.
  
 *  Develop "ratio" option for height & width
 
-*  Translate the plugin in *french*.
-
-*  Include the *HTML 5* code.
-
 *  Even more option switchs.
 
 *  Take over the world. 
@@ -119,4 +120,4 @@ Not necessarily in that order ;-)
 
 == License ==
 
-This plugin (*and all its related files*) falls under the **GNU GENERAL PUBLIC LICENSE** v**3**. 
+This plugin (*and all its related files*) falls under the **[GNU GENERAL PUBLIC LICENSE v3](http://pxsol.info/rohPSr "GNU General Public License - Version 3")**. 
