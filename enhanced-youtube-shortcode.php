@@ -67,9 +67,7 @@ if(!class_exists('pxsol_youtube_plugin')) {
 				$pxsol_switch_theme = '&theme=light';
 			};
 			$pxsol_switch_showinfo = '';
-			if ($pxsol_youtube_showinfo == 'true'){
-				$pxsol_switch_showinfo = '&showinfo=1';
-			} else {
+			if ($pxsol_youtube_showinfo == 'false'){
 				$pxsol_switch_showinfo = '&showinfo=0';
 			};
 			$pxsol_youtube_switch = $pxsol_switch_fullScreen.$pxsol_switch_hd.$pxsol_switch_autoplay.$pxsol_switch_controls.$pxsol_switch_autohide.$pxsol_switch_modestbranding.$pxsol_switch_theme.$pxsol_switch_showinfo;
