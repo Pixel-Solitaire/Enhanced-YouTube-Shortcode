@@ -120,7 +120,7 @@ if(!class_exists('pxsol_youtube_plugin')) {
 		// Settings page creation
 		// ////////////////////////
 		function pxsol_youtube_settings_page() {
-			require_once(WP_PLUGIN_DIR . '/enhanced-youtube-shortcode/display.php');
+			require_once(WP_PLUGIN_DIR . '/enhanced-youtube-shortcode/the-display.txt');
 		}
 
 		// Admin bar's buttons
@@ -130,31 +130,16 @@ if(!class_exists('pxsol_youtube_plugin')) {
 			$wp_admin_bar->add_menu( array( // Pixel button
 				'id' => 'pixel_zone', 'title' => __('Pixel Solitaire'),	'href' => 'http://pixel-solitaire.com',	'meta' => array( target => '_blank', title => 'Les nouvelles du Pixel Solitaire' )
 			));
-			$wp_admin_bar->add_menu( array( // Plugin sub-button
-				'parent' => 'pixel_zone', 'title' => __('Enhanced YouTube | WebPage'), 'href' => 'http://pixel-solitaire.com/telechargements/enhanced-youtube-shortcode/', 'meta' => array( target => '_blank', title => 'Plugin official webpage' )
-			));
 		}	
 
-		// Pushing CSS & JS in the Loop
+		// Pushing CSS
 		// ///////////////////////
 		function pxsol_youtube_init() {
 			$pxsol_youtube_css_file = WP_PLUGIN_DIR . '/enhanced-youtube-shortcode/css/pxsol_youtube.css';
 			$pxsol_youtube_css_link = WP_PLUGIN_URL . '/enhanced-youtube-shortcode/css/pxsol_youtube.css';
-			$pxsol_jquery_plugin_file = WP_PLUGIN_DIR . '/enhanced-youtube-shortcode/js/idtabs.2.2.min.js';
-			$pxsol_jquery_plugin_link = WP_PLUGIN_URL . '/enhanced-youtube-shortcode/js/idtabs.2.2.min.js';
-			$pxsol_youtube_scripts_file = WP_PLUGIN_DIR . '/enhanced-youtube-shortcode/js/pxsol_youtube.js';
-			$pxsol_youtube_scripts_link = WP_PLUGIN_URL . '/enhanced-youtube-shortcode/js/pxsol_youtube.js';
 			if ( file_exists($pxsol_youtube_css_file) ) {
 				wp_register_style('pxsol-youtube', $pxsol_youtube_css_link, false, '1.5', 'all');
 				wp_enqueue_style('pxsol-youtube');
-			};
-			if ( file_exists($pxsol_jquery_plugin_file) ) {
-				wp_register_script( 'jquery-idTabs', $pxsol_jquery_plugin_link, array('jquery'), '2.2' );
-				wp_enqueue_script( 'jquery-idTabs' );
-			};
-			if ( file_exists($pxsol_youtube_scripts_file) ) {
-				wp_register_script( 'pxsol-youtube-scripts', $pxsol_youtube_scripts_link, array('jquery-idTabs'), '2.0' );
-				wp_enqueue_script( 'pxsol-youtube-scripts' );
 			};
 		}
 
