@@ -3,8 +3,8 @@ Contributors: Le-Pixel-Solitaire
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=erick%40pixel%2dsolitaire%2ecom&lc=CA&item_name=Le%20Pixel%20Solitaire&currency_code=CAD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
 Tags: youtube, video, player, shortcode, custom, link, clip
 Requires at least: 3.1
-Tested up to: 3.3.1
-Stable tag: 2.0
+Tested up to: 3.9.1
+Stable tag: 2.0.1
 
 A simple YouTube shortcode with several options & general improvement over the default one of Wordpress.
 
@@ -13,9 +13,9 @@ A simple YouTube shortcode with several options & general improvement over the d
 
 The "**Enhanced YouTube Shortcode**" plugin provides a quick & easy way to use a custom *YouTube&copy;* player in your posts and/or pages without having to get your hands dirty in the source codes! The main advantage over the way *Wordpress* is working this out is the possibility of changing the display of all players in one single spot instead of having to do it manually at every places it has been set. But most importantly: it's fun and good for you! (*check out the screenshot for a sample of all offered options!*)
 
-Now with **more than 10 parameters** available through a simple configuration page (*reach it from the Settings Menu*), the code that is generated always allows scripting access and forces the use of the ActionScript 3 engine (*see **Other Notes** for limitations*). It has been initially created (*& tested*) on a *Wordpress 3.3.1* live installation according to the specifications of the official [YouTube Embed Player API Parameters](http://code.google.com/intl/fr-CA/apis/youtube/player_parameters.html "YouTube Embedded Player Parameters - Google Code").
+Now with **more than 10 parameters** available through a simple configuration page (*reach it from the Settings Menu*), the code that is generated always allows scripting access and forces the use of the ActionScript 3 engine (*see **Other Notes** for limitations*). It has been initially created on a *Wordpress 3.2.1* live installation & recently tested on a *Wordpress 3.9.1* live installation with success, according to the specifications of the official [YouTube Embed Player API Parameters](http://code.google.com/intl/fr-CA/apis/youtube/player_parameters.html "YouTube Embedded Player Parameters - Google Code").
 
-There are a couple of things on the **To Do** list (*see **Other Notes***) so you can expect updates soon!
+There are a couple of things on the **To Do** list (*see **Other Notes***) & the developer is back on track with this project so you can expect a major upgrade soon (summer 2014)!
 
 
 == Installation ==
@@ -67,12 +67,17 @@ Why not posting your request in this forum:
 
 
 == Upgrade Notice ==
- 
-= 2.0 =
-MAJOR UPDATE: New user interface + New "related videos" option + Minor bugs fixed! PLEASE UPGRADE.
+
+= 2.0.1 =
+MINOR UPDATE: Code optimisation/preparation for next major upgrade, slight UI revisions & updated information (***mainly for the Wordpress.org repository***). PLEASE UPGRADE.
 
 
 == Changelog ==
+
+= 2.0.1 =
+* Code optimisation/preparation for next major upgrade
+* Slight UI revisions
+* Updated information (mainly for the Wordpress.org repository)
 
 = 2.0 =
 * New user interface

@@ -3,10 +3,10 @@
 Plugin Name: Enhanced YouTube Shortcode
 Plugin URI: http://pixel-solitaire.com/telechargements/enhanced-youtube-shortcode/
 Description: A simple <em>YouTube</em> shortcode with several options & general improvement over the default one of <em>Wordpress</em>. Activate then click "<strong>Settings=>Enhanced YouTube</strong>" in order to edit the player options & more infos. <strong>Usage sample:</strong> [youtube_video id="uAOLzRhKF9c"]
-Version: 2.0
+Version: 2.0.1
 Author: le Pixel Solitaire
 Author URI: http://pixel-solitaire.com/
-License: GNU General Public License (v3)
+License: GNU General Public License (v3) http://www.gnu.org/licenses/gpl-3.0.txt
 */
 
 if(!class_exists('pxsol_youtube_plugin')) { class pxsol_youtube_plugin { function pxsol_youtube($atts) { extract(shortcode_atts(array('id' =>'',), $atts)); $pxsol_youtube_autoplay = get_option('pxsol_youtube_autoplay'); $pxsol_youtube_hd = get_option('pxsol_youtube_hd'); $pxsol_youtube_width = get_option('pxsol_youtube_width'); $pxsol_youtube_height = get_option('pxsol_youtube_height'); $pxsol_youtube_fullScreen = get_option('pxsol_youtube_fullScreen'); $pxsol_youtube_controls = get_option('pxsol_youtube_controls'); $pxsol_youtube_autohide = get_option('pxsol_youtube_autohide'); $pxsol_youtube_modestbranding = get_option('pxsol_youtube_modestbranding'); $pxsol_youtube_theme = get_option('pxsol_youtube_theme'); $pxsol_youtube_showinfo = get_option('pxsol_youtube_showinfo');$pxsol_youtube_related = get_option('pxsol_youtube_related');
