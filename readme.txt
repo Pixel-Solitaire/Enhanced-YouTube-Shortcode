@@ -69,7 +69,7 @@ Why not posting your request in this forum:
 == Upgrade Notice ==
 
 = 2.0.1 =
-MINOR UPDATE: Code optimisation/preparation for next major upgrade, slight UI revisions & updated information (***mainly for the Wordpress.org repository***). PLEASE UPGRADE.
+MINOR UPDATE: Code optimisation/preparation for next major upgrade, slight UI revisions & updated information (*mainly for the Wordpress.org repository*). PLEASE UPGRADE.
 
 
 == Changelog ==
@@ -138,13 +138,13 @@ MINOR UPDATE: Code optimisation/preparation for next major upgrade, slight UI re
 
 == TO DO ==
  
+*  A simpler/quicker way of inserting the shortcode. 
+
 *  Develop some «height & width» presets.
 
 *  Google Analytics integration.
 
 *  French translation.
-
-*  Even More options.
 
 *  Take over the world. 
 
