@@ -1,1 +1,4 @@
+# ignore les fichiers qui commencent par «@»
 @*.*
+# ignore les fichiers thumbnail généré par windows
+*.db
