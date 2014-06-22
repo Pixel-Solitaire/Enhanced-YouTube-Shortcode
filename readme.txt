@@ -46,7 +46,7 @@ Oh, I'm *soooo* sorry for you. *Really*. Maybe it's time for you to give up, don
 
 = You're a french speaking bloke, *right*? So where is the translation? =
 
-It's quite simple: I'm learning how to do it properly... The french language is on its way now: you can expect it in a near future
+It's quite simple: I'm learning how to do it properly... The french language is on its way now: you can expect it in a near future.
 
 = I got a specific question related to this plugin... What could I do? =
 
@@ -58,7 +58,7 @@ Why not posting your request in this forum:
 
 = I think you're a genius & I want you to be the father of my children. =
 
-*Well*... If you're actually a sexy blond woman with lot of money and a big car I believe we can form a real complete couple: I offer quite the opposite ...
+*Well*... If you're actually a sexy blond woman with lot of money and a big car I believe we can form a real complete couple: I offer quite the opposite...
 
 
 == Screenshots ==
@@ -140,11 +140,11 @@ MINOR UPDATE: Code optimisation/preparation for next major upgrade, slight UI re
  
 *  A simpler/quicker way of inserting the shortcode. 
 
+*  HTML5 implementation.
+
 *  Develop some «height & width» presets.
 
 *  Google Analytics integration.
-
-*  French translation.
 
 *  Take over the world. 
 
@@ -153,4 +153,4 @@ Not necessarily in that order...
 
 == License ==
 
-This plugin (*and all its related files*) falls under the **[GNU GENERAL PUBLIC LICENSE v3](http://pxsol.info/rohPSr "GNU General Public License - Version 3")**. 
+This plugin (*and all its related files*) falls under the **[GNU GENERAL PUBLIC LICENSE v3](http://www.gnu.org/licenses/gpl-3.0.txt "GNU General Public License - Version 3")**. 
