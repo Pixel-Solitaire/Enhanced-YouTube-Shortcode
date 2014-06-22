@@ -6,7 +6,7 @@ Requires at least: 3.1
 Tested up to: 3.9.1
 Stable tag: 2.0.1
 
-A simple YouTube shortcode with several options & general improvement over the default one of Wordpress.
+A quick & simple way to include YouTube videos in your Wordpress posts with a neat centralized options panel to manage the player's output.
 
 
 == Description ==
@@ -15,7 +15,7 @@ The "**Enhanced YouTube Shortcode**" plugin provides a quick & easy way to use a
 
 Now with **more than 10 parameters** available through a simple configuration page (*reach it from the Settings Menu*), the code that is generated always allows scripting access and forces the use of the ActionScript 3 engine (*see **Other Notes** for limitations*). It has been initially created on a *Wordpress 3.2.1* live installation & recently tested on a *Wordpress 3.9.1* live installation with success, according to the specifications of the official [YouTube Embed Player API Parameters](http://code.google.com/intl/fr-CA/apis/youtube/player_parameters.html "YouTube Embedded Player Parameters - Google Code").
 
-There are a couple of things on the **To Do** list (*see **Other Notes***) & the developer is back on track with this project so you can expect a major upgrade soon (summer 2014)!
+There are a couple of things on the **To Do** list (*see **Other Notes***) & the developer is back on track with this project so you can expect a major upgrade soon (*summer 2014*)!
 
 
 == Installation ==
@@ -69,13 +69,13 @@ Why not posting your request in this forum:
 == Upgrade Notice ==
 
 = 2.0.1 =
-MINOR UPDATE: Code optimisation/preparation for next major upgrade, slight UI revisions & updated information (*mainly for the Wordpress.org repository*). PLEASE UPGRADE.
+MINOR UPDATE: Code optimisation/preparation for next major upgrade (*v3*), slight UI revisions & updated information (*mainly for the Wordpress.org repository*). PLEASE UPGRADE.
 
 
 == Changelog ==
 
 = 2.0.1 =
-* Code optimisation/preparation for next major upgrade
+* Code optimisation/preparation for next major upgrade (*v3*)
 * Slight UI revisions
 * Updated information (mainly for the Wordpress.org repository)
 
@@ -130,18 +130,26 @@ MINOR UPDATE: Code optimisation/preparation for next major upgrade, slight UI re
 
 
 == Limitations ==
- 
+
 * **Internet Explorer is not a natural friend of YouTube...** Every versions of this browser, *from 6 all the way up to 9*, have different bugs & even more ways to deal with YouTube videos. So in order to push a video to everyone this plugin will provide a player to Internet Explorer effectively but without other parameters than width & height. All the rest will be the default state of a "*regular*" YouTube video player. A future version should solve those issues by serving an all javascript player to this browser.
+ 
+* The tests on *Wordpress 3.9.1* were quick, some features may be not working but this should not affect the plugin responsiveness. All bases will be covered in the next major release of the plugin (*v3*).
 
 * Some *Wordpress* themes that already have a bunch of shortcodes may cause conflicts with this one. Usually a quick look in the doc of your theme & you'll find a way of injecting "*raw*" codes in your post without triggering any presets options.
 
 
 == TO DO ==
+
+**In the plan for the next major upgrade** (*v3*) **:**
  
+*  Rewrite the core of the display functions. 
+
 *  A simpler/quicker way of inserting the shortcode. 
 
 *  HTML5 implementation.
 
+**In the back of my mind...**
+ 
 *  Develop some «height & width» presets.
 
 *  Google Analytics integration.
